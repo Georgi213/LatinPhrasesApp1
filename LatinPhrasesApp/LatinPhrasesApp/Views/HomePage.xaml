@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LatinPhrasesApp.Views.HomePage">
+    <RelativeLayout>
+        <Image Source="papyrus1.jpg"
+               Aspect="AspectFill"
+               RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
+               RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}" />
+
+        <ScrollView RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
+                    RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}">
+            <StackLayout Padding="30">
+                <Label Text="Ladina keele päritolu"
+                       FontSize="40"
+                       FontAttributes="Bold"
+                       TextColor="Black"
+                       HorizontalOptions="Start"
+                       Margin="0,40,0,0"/>
+
+                <Label Text="Ladina keel on latiinlaste keel, iidsed Latiumi asukad, kes asustasid väikest Kesk-Itaalia piirkonda. Latiumi ja Etruria piiril Tiberi jõe kohal asus Rooma, mis asutati legendi järgi aastal 753r. eKr e Kuigi Rooma kogukonda kuulus erinevaid hõime, jäi rahvusvahelise suhtluse kõne ladinakeelseks. Seejärel vallutas Rooma Kreeka, Gallia, osa Pürenee poolsaarest, Põhja-Aafrika, Väike-Aasia, Egiptuse ja teised maad. Ladina keel ulatus Apenniini poolsaarest kaugemale ja levis Lääne-Euroopasse.
+II pool III - II sajand. eKr AD - see on ladina kirjakeele, mida nimetatakse arhailiseks ladinaks, väljakujunemise periood. Selle perioodi teostest Plautuse (umbes 253 - 184 eKr), Terence'i (185 - 159 eKr) komöödiad, Cato Vanema traktaat (234 - 149 eKr), samuti fragmente teiste autorite teostest. 1. sajandi keel. eKr e - klassikaline ladina keel (kuldne ladina) - rikas teadusliku, filosoofilise, poliitilise ja tehnilise terminoloogia poolest. Just sel ajal saavutas ladina keel oma kõrgeima arengu Gaius Julius Caesari (100–44 eKr), Mark Tullius Cicero (106–43 eKr), Publius Virgil Maroni (70–19 eKr), Publius Ovidiuse teostes. Nason (43 pKr – umbes 18 pKr) ja teised Rooma kirjanikud.
+Antiikühiskonna allakäigu, Rooma impeeriumi lagunemise ja uute rahvaste tekkega annab ladina rahvakeelne konekeel tõuke romaani keelte kujunemisele: itaalia, prantsuse, hispaania, portugali, rumeenia jne.
+Kuigi ladina keel lakkas osade inimeste jaoks olemast suhtlusvahend tervikuna, säilis see teaduse, osalt kirjanduse ja ametlike aktide kirjakeelena. Selles mõttes ületas ladina keel kaugelt Rooma impeeriumi piirid.
+Renessansiajal (XIV – XVI sajand) muutub ladina keelest rahvusvaheline teaduse ja diplomaatia keel, koolides õppeaine. Kuni XVIII sajandini peaaegu kõik teaduslikud tööd on kirjutatud ladina keeles. Näiteks piisab, kui tuua vaid mõned teadlaste nimed: Erasmus Rotterdamist (1466 - 1536) Hollandis, Nicolaus Copernicus (1473 - 1535) Poolas, Thomas More (1478 - 1535), Francis Bacon (1561 - 1626). ) ja Isaac Newton (1643–1727) Inglismaal.
+Ladina keel jäi paljudeks sajanditeks teaduse ja diplomaatia, koolide ja kirikute, õigusteaduse jne keeleks. Eelkõige tuleb rõhutada, et ladina keel oli rahvusvaheline meditsiinikeel. Vene keeles on palju ladina päritolu sõnu, näiteks: autor, jurist, tegu, tegevus, polikliinik, autor, tunnistus, publik, diktaat, direktor, arst, dotsent, eksam, efekt, impeerium, instituut, instrument, komisjon , kompromiss, kokkuvõte , põhiseadus, konverents, kultuur, labor, rida, kirjandus, miinus, notar, objekt, pluss, ametikoht, edusammud, professor, protsess, rektor, vabariik, sanatoorium, solist, üliõpilane, ülikool, teaduskond, föderatsioon, finaal ja paljud teised.
+Ladina keel jääb endiselt teadusliku ja tehnilise terminoloogia hariduse allikaks."
+                       FontSize="20"
+                       TextColor="#5F4227"
+                       HorizontalOptions="Start" />
+                <Label Text="Ladina keele päritolu"
+                       FontSize="40"
+                       FontAttributes="Bold"
+                       TextColor="Black"
+                       HorizontalOptions="Start"
+                       Margin="0,40,0,0"/>
+
+                <Label Text="Ladina keel on latiinlaste keel, iidsed Latiumi asukad, kes asustasid väikest Kesk-Itaalia piirkonda. Latiumi ja Etruria piiril Tiberi jõe kohal asus Rooma, mis asutati legendi järgi aastal 753r. eKr e Kuigi Rooma kogukonda kuulus erinevaid hõime, jäi rahvusvahelise suhtluse kõne ladinakeelseks. Seejärel vallutas Rooma Kreeka, Gallia, osa Pürenee poolsaarest, Põhja-Aafrika, Väike-Aasia, Egiptuse ja teised maad. Ladina keel ulatus Apenniini poolsaarest kaugemale ja levis Lääne-Euroopasse.
+II pool III - II sajand. eKr AD - see on ladina kirjakeele, mida nimetatakse arhailiseks ladinaks, väljakujunemise periood. Selle perioodi teostest Plautuse (umbes 253 - 184 eKr), Terence'i (185 - 159 eKr) komöödiad, Cato Vanema traktaat (234 - 149 eKr), samuti fragmente teiste autorite teostest. 1. sajandi keel. eKr e - klassikaline ladina keel (kuldne ladina) - rikas teadusliku, filosoofilise, poliitilise ja tehnilise terminoloogia poolest. Just sel ajal saavutas ladina keel oma kõrgeima arengu Gaius Julius Caesari (100–44 eKr), Mark Tullius Cicero (106–43 eKr), Publius Virgil Maroni (70–19 eKr), Publius Ovidiuse teostes. Nason (43 pKr – umbes 18 pKr) ja teised Rooma kirjanikud.
+Antiikühiskonna allakäigu, Rooma impeeriumi lagunemise ja uute rahvaste tekkega annab ladina rahvakeelne konekeel tõuke romaani keelte kujunemisele: itaalia, prantsuse, hispaania, portugali, rumeenia jne.
+Kuigi ladina keel lakkas osade inimeste jaoks olemast suhtlusvahend tervikuna, säilis see teaduse, osalt kirjanduse ja ametlike aktide kirjakeelena. Selles mõttes ületas ladina keel kaugelt Rooma impeeriumi piirid.
+Renessansiajal (XIV – XVI sajand) muutub ladina keelest rahvusvaheline teaduse ja diplomaatia keel, koolides õppeaine. Kuni XVIII sajandini peaaegu kõik teaduslikud tööd on kirjutatud ladina keeles. Näiteks piisab, kui tuua vaid mõned teadlaste nimed: Erasmus Rotterdamist (1466 - 1536) Hollandis, Nicolaus Copernicus (1473 - 1535) Poolas, Thomas More (1478 - 1535), Francis Bacon (1561 - 1626). ) ja Isaac Newton (1643–1727) Inglismaal.
+Ladina keel jäi paljudeks sajanditeks teaduse ja diplomaatia, koolide ja kirikute, õigusteaduse jne keeleks. Eelkõige tuleb rõhutada, et ladina keel oli rahvusvaheline meditsiinikeel. Vene keeles on palju ladina päritolu sõnu, näiteks: autor, jurist, tegu, tegevus, polikliinik, autor, tunnistus, publik, diktaat, direktor, arst, dotsent, eksam, efekt, impeerium, instituut, instrument, komisjon , kompromiss, kokkuvõte , põhiseadus, konverents, kultuur, labor, rida, kirjandus, miinus, notar, objekt, pluss, ametikoht, edusammud, professor, protsess, rektor, vabariik, sanatoorium, solist, üliõpilane, ülikool, teaduskond, föderatsioon, finaal ja paljud teised.
+Ladina keel jääb endiselt teadusliku ja tehnilise terminoloogia hariduse allikaks."
+                       FontSize="20"
+                       TextColor="#5F4227"
+                       HorizontalOptions="Start" />
+
+                <ListView x:Name="latinPhrasesListView"
+                          Margin="0,20,0,0">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell Text="{Binding}"
+                                      TextColor="Black" />
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ScrollView>
+    </RelativeLayout>
+</ContentPage>
